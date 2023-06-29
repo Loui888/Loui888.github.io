@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="shortcut icon" href="icons8-nube-64.png">
+    <script src="js/jquery-2.2.0.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript">
+		$(window).load(function() {
+			$('.flexslider').flexslider();
+		});
+	</script>
+    <title>Info Clouds</title>
+</head>
+<body>
+    <div id="contenedor">
+        <div class="contenedor-flex">
+            <header><img src="imagenes/istockphoto.png" alt="banner" width="100%"></header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Contactanos</a></li>
+                    <li><a href="Registrate.html">Registrate</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contenedor-flex">
+            <section>
+                <h1>Registrate</h1>
+                    <fieldset>
+                        <form action="">
+                        <label for="Nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder=" Ingresa tu Nombre" required>
+                        <label for="Apellido">  Apellido</label>
+                        <input type="text" name="Apellido" id="Apellido" placeholder=" Ingresa tu Apellido" required> 
+                        <label for="Usuario">Usuario</label>
+                        <input type="text" name="Usuario" id="Usuario" placeholder=" Ingresa tu nombre de usuario" required>
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="contraseña" id="contraseñass" placeholder=" Ingresa una contraseña" required>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="submit">Enviar</button>
+                        </form>
+                    </fieldset>
+            </section>
+            <section><img src="imagenes/flame-uploading.gif" alt="" width="100%"></section>
+        </div>
+        <footer>
+        <div class="contenedor-flex">
+            <aside>
+                <ul class="menu2">
+                    <li><a href="index.html">inicio</a></li>
+                    <li><a href="index.html">Contactanos</a></li>
+                    <li><a href="Registrate.html">Registrate</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <div class="contenido">
+                <img src="imagenes/001.png" alt="" width="20%">
+                <img src="imagenes/002.png" alt=""width="20%">
+                <img src="imagenes/003.png" alt="" width="20%">
+                <p>direccion</p>
+                <p>mi casa</p>
+                </div>
+            </aside>
+            <aside>
+                <img src="imagenes/descarga.jpg" alt="" width="90%">
+            </aside>    
+            <aside>
+                <img src="imagenes/images.png" alt="" width="90%">
+            </aside>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
